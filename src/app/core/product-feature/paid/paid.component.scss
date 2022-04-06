@@ -1,0 +1,74 @@
+  .wrapper-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20% !important;
+  }
+
+  .wrapper-2 {
+    padding: 30px;
+    text-align: center;
+
+  }
+
+  h2 {
+    font-size: 50px;
+    font-family: "Brush Script MT" !important;
+  }
+
+  .wrapper-2 p {
+    margin: 0;
+    font-size: 1.3em;
+    color: #aaa;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .btn {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 0 10px;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    color: black;
+    border: 2px solid #ffb03b;
+  }
+
+  .btn:hover {
+    background: #ffb03b;
+    color: #fff !important;
+  }
+
+  @media (min-width:360px) {
+    h1 {
+      font-size: 4.5em;
+    }
+
+    .go-home {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width:600px) {
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .wrapper-1 {
+      height: initial;
+      max-width: 620px;
+      margin: 0 auto;
+      margin-top: 50px;
+      box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
+    }
+
+  }
